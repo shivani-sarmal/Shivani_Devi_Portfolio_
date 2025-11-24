@@ -6,26 +6,23 @@
 }
 
 body {
-  /* Light background */
   background: #F5F5F5; 
-  color: #1a1a1a; /* Deep, readable text */
+  color: #1a1a1a;
 }
 
 /* Navigation */
 .navbar {
-  /* Deep Navy Blue */
   background: #1A237E; 
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Subtle shadow */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar .logo {
   color: white;
-  font-size: 24px; /* Slightly larger logo */
+  font-size: 24px; 
   font-weight: bold;
 }
 
@@ -35,18 +32,17 @@ body {
 }
 
 .navbar ul li {
-  margin-left: 25px; /* Increased spacing */
+  margin-left: 25px; 
 }
 
 .navbar ul li a {
   text-decoration: none;
   color: white;
   font-size: 16px;
-  transition: color 0.3s; /* For hover effect */
+  transition: color 0.3s; 
 }
 
 .navbar ul li a:hover {
-    /* Orange-Gold hover effect */
     color: #FF9800; 
 }
 
@@ -54,13 +50,12 @@ body {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  /* Light Aqua/Blue background */
   background: #E0F7FA; 
 }
 
 .hero h1 {
   font-size: 44px;
-  color: #1A237E; /* Navy Blue heading */
+  color: #1A237E; 
 }
 
 .hero p {
@@ -81,7 +76,6 @@ section {
 }
 
 .skills span {
-  /* Orange-Gold tags */
   background: #FF9800; 
   color: #fff;
   padding: 10px 20px;
@@ -93,26 +87,23 @@ section {
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px; /* Increased gap */
+  gap: 30px; 
 }
 
 .project-card {
-  padding: 25px; /* Increased padding */
+  padding: 25px; 
   background: white;
-  border-radius: 10px; /* Slightly rounder corners */
-  /* Subtle shadow */
+  border-radius: 10px; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s;
 }
 
 .project-card:hover {
-    /* Card slightly lifts on hover */
     transform: translateY(-5px); 
 }
 
 /* Resume Button */
 .resume .btn {
-  /* Deep Navy Blue button */
   background: #1A237E; 
   padding: 12px 25px;
   text-decoration: none;
@@ -124,7 +115,6 @@ section {
 }
 
 .resume .btn:hover {
-    /* Orange-Gold on hover */
     background: #FF9800; 
 }
 
@@ -145,27 +135,25 @@ section {
 }
 
 .contact button {
-  padding: 14px; /* Made button bigger */
-  /* Deep Navy Blue */
+  padding: 14px; 
   background: #1A237E; 
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 18px; /* Larger font */
+  font-size: 18px; 
   transition: background 0.3s;
 }
 
 .contact button:hover {
-    /* Orange-Gold on hover */
     background: #FF9800; 
 }
 
 /* Footer */
 footer {
   text-align: center;
-  /* Deep Navy Blue */
   background: #1A237E; 
   color: white;
-  padding: 25px; /* Increased padding */
+  padding: 25px; 
 }
+ 
